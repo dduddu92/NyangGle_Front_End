@@ -105,7 +105,7 @@ function Member() {
 
   useEffect(() => {
     fetchFishCountHandler();
-  }, []);
+  }, [pageUuid]);
 
   useEffect(() => {
     if (fishCart?.uuid !== null) {
